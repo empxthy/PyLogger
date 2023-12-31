@@ -1,11 +1,11 @@
 <div align="center">
   <img src="https://raw.githubusercontent.com/alexemployed/PyLogger/main/.github/misc/logo.png"></img><br>
-  <img src="https://raw.githubusercontent.com/alexemployed/PyLogger/251fa55d4240c6d106c5275b3d849e12e19456e2/.github/misc/VERSION.svg"></img>
-  <img src="https://raw.githubusercontent.com/alexemployed/PyLogger/910360bc12546cfd472dd2b7f8c4c9de1280e6dd/.github/misc/LICENSE.svg"></img><br><br>
-  <img src="https://raw.githubusercontent.com/alexemployed/PyLogger/ab4be0dc0f14ed7e6c43ec998401f9cc3486cf38/.github/misc/AUTHOR.svg"></img>
-  <img src="https://raw.githubusercontent.com/alexemployed/PyLogger/b65a48bfc1abb924faae2418b754c9f3741ca2ff/.github/misc/Open%20source.svg"></img>
-  <img src="https://raw.githubusercontent.com/alexemployed/PyLogger/65152da645ca08d812105cc44a6669d99bf20e3b/.github/misc/Maintained.svg"></img>
-  <img src="https://raw.githubusercontent.com/alexemployed/PyLogger/65152da645ca08d812105cc44a6669d99bf20e3b/.github/misc/Written%20in.svg"></img>
+  <img src="https://raw.githubusercontent.com/alexemployed/PyLogger/dfbd6240256ea708940da27a3b53870721817e87/.github/misc/VERSION.svg"></img>
+  <img src="https://raw.githubusercontent.com/alexemployed/PyLogger/dfbd6240256ea708940da27a3b53870721817e87/.github/misc/LICENSE.svg"></img><br><br>
+  <img src="https://raw.githubusercontent.com/alexemployed/PyLogger/dfbd6240256ea708940da27a3b53870721817e87/.github/misc/AUTHOR.svg"></img>
+  <img src="https://raw.githubusercontent.com/alexemployed/PyLogger/dfbd6240256ea708940da27a3b53870721817e87/.github/misc/Open%20source.svg"></img>
+  <img src="https://raw.githubusercontent.com/alexemployed/PyLogger/dfbd6240256ea708940da27a3b53870721817e87/.github/misc/Maintained.svg"></img>
+  <img src="https://raw.githubusercontent.com/alexemployed/PyLogger/dfbd6240256ea708940da27a3b53870721817e87/.github/misc/Written%20in.svg"></img>
 
   # PyLogger
   # Disclaimer
