@@ -1,7 +1,7 @@
 #!/usr/bin/python
 
 # Coding: UTF-8
-# Name: NetSafeGuard
+# Name: PyLogger
 # Author: AlexEmployed
 # Version: 1.0.0
 # License: GPL-3.0 version
